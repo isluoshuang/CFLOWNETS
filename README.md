@@ -1,6 +1,6 @@
 # [ICLR 2023] CFlowNets: Continuous Control with Generative Flow Networks
 
-[![arXiv](https://img.shields.io/badge/arXiv-2211.12712-b31b1b.svg)](https://arxiv.org/abs/2303.02430)
+[![arXiv](https://img.shields.io/badge/arXiv-2303.02430-b31b1b.svg)](https://arxiv.org/abs/2303.02430)
 
 Official codebase for paper [CFlowNets: Continuous Control with Generative Flow Networks](https://arxiv.org/abs/2303.02430).
 
