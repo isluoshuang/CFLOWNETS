@@ -9,7 +9,10 @@ Official codebase for paper [CFlowNets: Continuous Control with Generative Flow 
 
 #### Install dependencies
 
-See `requirments.txt` file for more information about how to install the dependencies.
+torch==1.8.1
+gym==0.18.3
+python==3.8.10
+tensorboard==2.5.0
 
 #### Install mujoco 210
 ```bash
