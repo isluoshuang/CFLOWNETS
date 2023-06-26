@@ -16,14 +16,11 @@ Official codebase for paper [CFlowNets: Continuous Control with Generative Flow 
 
 #### Install mujoco 210
 ```bash
-cd ~/download/
+cd ~
 wget -c https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz
 mkdir ~/.mujoco
 cd ~/.mujoco
-tar -zxvf ~/download/mujoco210-linux-x86_64.tar.gz mujoco210
-
-tar -zxvf ~/download/mujoco210-linux-x86_64.tar.gz mujoco210
-
+tar -zxvf ~/mujoco210-linux-x86_64.tar.gz mujoco210
 
 echo "export LD_LIBRARY_PATH=\$HOME/.mujoco/mujoco210/bin:\$LD_LIBRARY_PATH" >> ~/.profile
 echo "export MUJOCO_PY_MUJOCO_PATH=\"\$HOME/.mujoco/mujoco210\"" >> ~/.profile
