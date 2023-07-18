@@ -46,6 +46,13 @@ python Retrieval_Reacher.py
 python CFN_Reacher.py
 ```
 
+## Remark
+To reproduce the results of Figure 3 (a)-(c) in the paper, it is necessary to set the is_max variable in the select_action function to 0 to strictly sample more diverse results based on their probabilities according to the flow network. If you want to maximize the reward and reproduce the results in Figure 3 (d)-(f) in the paper, you need to set the is_max variable to 1 in order to maximize the reward.
+
+The way of sampling according to the flow network is diverse, and as mentioned in Remark 1 in the paper:
+
+Remark 1. After the training process, for tasks that require a larger reward, we can sample actions with the maximum flow output in P during the test process to obtain a relatively higher reward. The output of the flow model is used is flexible, and we can adjust it for different tasks.
+
 
 ## Citation
 
